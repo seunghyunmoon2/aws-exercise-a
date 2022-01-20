@@ -3,8 +3,8 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Elastic Beanstalk으로 배포된 AWS exercise의 A project입니다. ####################version moon');
   res.send('version 3.0');
+  res.send('Elastic Beanstalk으로 배포된 AWS exercise의 A project입니다. ####################version moon');
 });
 
 app.listen(port, () => {
